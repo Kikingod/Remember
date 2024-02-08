@@ -1,0 +1,83 @@
+body{
+    background-image: url(image_for_css/space_background.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /*newwwwww*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+#title{
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+    border: 10px;
+    margin-bottom: 350px;
+}
+#play_button{
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(95, 145, 236);
+    border-radius: 10px;
+    border-color: rgb(95, 145, 236);
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    top: 40%;
+}
+
+#info{
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(95, 145, 236);
+    border-radius: 10px;
+    border-color: rgb(95, 145, 236);
+    position: absolute;
+    left: 45%;
+    right: 45%;
+    top: 60%;
+}
+
+#info_text{
+    color: beige;
+}
+.jaj{
+    height: 130px;
+    width: 130px;
+    border-radius: 10%;
+    padding: 15px;
+    
+    
+}
+
+#table-container {
+    margin-top: 100px;
+}
+#back_button{
+    background-color: aliceblue;
+    position: absolute;
+    border-radius: 10px;
+    font-size: 40px;
+}
+#level_text{
+    text-align: center;
+    position:absolute;
+    margin-bottom: 400px;
+    color: aliceblue;
+}
+#info_text{
+    position: absolute;
+    margin-top: 80px;
+    font-size: 40px;
+}
+#score_text{
+    position: absolute;
+    margin-top: 400px;
+    color: aliceblue;
+    font-size: 40px;
+}
